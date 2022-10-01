@@ -22,6 +22,3 @@ This project was developed by the following team :
 - Jonathan BRUTLEY [LinkedIn](https://www.linkedin.com/in/jonathan-brultey-22451813b/))
 - Carine TAN [LinkedIn](https://www.linkedin.com/in/carinetan-fr/)
 - Graziela DA SILVA [LinkedIn](https://www.linkedin.com/in/graziella-da-silva-7412a064/)
-
-
-## Streamlit App
