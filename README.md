@@ -1,77 +1,27 @@
-# Py_Bank_Market
+# Bank Marketing Data Sciences Project
 
 
-## Explications et Instructions
+## Introduction : 
 
-Ce repository contient les fichiers nécessaires à l'initialisation d'un projet fil-rouge dans le cadre de votre formation [DataScientest](https://datascientest.com/).
-
-Il contient principalement le présent fichier README.md et un template d'application [Streamlit](https://streamlit.io/).
-
-**README**
-
-Le fichier README.md est un élément central de tout repository git. Il permet de présenter votre projet, ses objectifs, ainsi que d'expliquer comment installer et lancer le projet, ou même y contribuer.
-
-Vous devrez donc modifier différentes sections du présent README.md, afin d'y inclure les informations nécessaires.
-
-- Complétez **en anglais** les sections (`## Presentation` et `## Installation` `## Streamlit App`) en suivant les instructions présentes dans ces sections.
-- Supprimer la présente section (`## Explications et Instructions`)
-
-**Application Streamlit**
-
-Un template d'application [Streamlit](https://streamlit.io/) est disponible dans le dossier [`streamlit_app`](streamlit_app). Vous pouvez partir de ce template pour mettre en avant votre projet.
+This repository contains the code for our project **Bank Marketing**, developed during our [Data Scientist training](https://datascientest.com/en/data-scientist-course) at [DataScientest](https://datascientest.com/).
 
 ## Presentation
 
-Complétez cette section **en anglais** avec une brève description de votre projet, le contexte (en incluant un lien vers le parcours DataScientest), et les objectifs.
-
-Vous pouvez également ajouter une brève présentation des membres de l'équipe avec des liens vers vos réseaux respectifs (GitHub et/ou LinkedIn par exemple).
-
-**Exemple :**
-
-This repository contains the code for our project **PROJECT_NAME**, developed during our [Data Scientist training](https://datascientest.com/en/data-scientist-course) at [DataScientest](https://datascientest.com/).
-
-The goal of this project is to **...**
+The analysis of marketing data from a banking or financial institution is one of the most common applications of Data Science and Machine Learning. The dataset on which we will work presents personal data of customers of a bank who have been
+of a bank who have been "telemarked" in order to subscribe to a product called "term deposit". A time deposit is an account in which the customer does not touch the deposited funds for a defined period of time
+for a defined period of time in exchange for interest that they earn at the end of the term. This would be a product that would not be of interest to all of the bank's customers since sufficient savings are required to deposit in the term deposit account in question.
+The purpose of our study will answer the following question: Which customers are likely to open
+likely to open term deposit accounts? Also, it will be fundamental to be able to interpret our predictions by explaining why a client is considered to subscribe or not.
+To answer this question, we will first analyze the data in order to get some initial answers.
+In order to answer this question, we will first analyze the data to obtain the first elements of answers and carry out the necessary pre-processing for the rest of our study. Secondly, we will try to define a predictive model that will allow us to predict the customers who have subscribed to a term deposit. We will then proceed with the interpretation of our model. And to conclude, we will propose recommendations to
+improve future campaigns
 
 This project was developed by the following team :
 
-- John Doe ([GitHub](https://github.com/) / [LinkedIn](http://linkedin.com/))
-- Martin Dupont ([GitHub](https://github.com/) / [LinkedIn](http://linkedin.com/))
+- Seyf CHEOUR ([GitHub](https://github.com/) / [LinkedIn](https://www.linkedin.com/in/seyf-cheour/))
+- Jonathan BRUTLEY [LinkedIn](https://www.linkedin.com/in/jonathan-brultey-22451813b/))
+- Carine TAN [LinkedIn](https://www.linkedin.com/in/carinetan-fr/)
+- Graziela DA SILVA [LinkedIn](https://www.linkedin.com/in/graziella-da-silva-7412a064/)
 
-You can browse and run the [notebooks](./notebooks). You will need to install the dependencies (in a dedicated environment) :
-
-```
-pip install -r requirements.txt
-```
 
 ## Streamlit App
-
-**Add explanations on how to use the app.**
-
-To run the app :
-
-```shell
-cd streamlit_app
-conda create --name my-awesome-streamlit python=3.9
-conda activate my-awesome-streamlit
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-The app should then be available at [localhost:8501](http://localhost:8501).
-
-**Docker**
-
-You can also run the Streamlit app in a [Docker](https://www.docker.com/) container. To do so, you will first need to build the Docker image :
-
-```shell
-cd streamlit_app
-docker build -t streamlit-app .
-```
-
-You can then run the container using :
-
-```shell
-docker run --name streamlit-app -p 8501:8501 streamlit-app
-```
-
-And again, the app should then be available at [localhost:8501](http://localhost:8501).
